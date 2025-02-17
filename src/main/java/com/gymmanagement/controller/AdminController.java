@@ -14,5 +14,12 @@ public class AdminController {
 		
 		return "Admin-Login";
 	}
+	
+	@GetMapping("/register")
+	public String register()
+	{
+		
+		return "Admin-Registration";
+	}
 
 }
