@@ -7,6 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello This is Admin Login Page</h1>
+<h1> Admin Login </h1>
+
+<form action="">
+<label>Username : </label>
+<input type="text" name="username" placeholder="Enter Username"><br>
+<label>Password : </label>
+<input type="password" name="password" placeholder="Enter Password"><br>
+
+<button type="submit">Login</button>
+</form>
+
+
 </body>
 </html>
